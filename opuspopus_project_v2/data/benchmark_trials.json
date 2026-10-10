@@ -1,0 +1,131 @@
+[
+  {
+    "nct_id": "BENCH-T2D-001",
+    "title": "Once-Daily Oral Agent Added to Metformin in Adults With Type 2 Diabetes",
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ],
+    "min_age": 18,
+    "max_age": 70,
+    "sex": "ALL",
+    "summary": "Phase 3 study of an investigational oral glucose-lowering drug added to metformin in adults with inadequately controlled type 2 diabetes.",
+    "inclusion": [
+      "Diagnosis of type 2 diabetes mellitus for at least 6 months before screening",
+      "HbA1c between 7.0% and 10.5% (inclusive) at screening",
+      "On a stable dose of metformin (at least 1000 mg/day) for at least 8 weeks",
+      "Body mass index (BMI) between 25 and 40 kg/m2",
+      "Willing and able to provide written informed consent"
+    ],
+    "exclusion": [
+      "Type 1 diabetes mellitus or history of diabetic ketoacidosis",
+      "eGFR below 45 mL/min/1.73m2",
+      "Pregnant or breastfeeding women",
+      "Myocardial infarction or stroke within 6 months before screening",
+      "Use of insulin within 3 months before screening"
+    ],
+    "source": "Benchmark (synthetic, CT.gov format)",
+    "url": ""
+  },
+  {
+    "nct_id": "BENCH-HTN-002",
+    "title": "Novel Antihypertensive in Uncontrolled Essential Hypertension",
+    "conditions": [
+      "Hypertension",
+      "Resistant Hypertension"
+    ],
+    "min_age": 30,
+    "max_age": 75,
+    "sex": "ALL",
+    "summary": "Randomized trial of a new blood-pressure-lowering drug in patients whose hypertension remains uncontrolled on standard therapy.",
+    "inclusion": [
+      "Diagnosis of essential (primary) hypertension",
+      "Seated office systolic blood pressure of 140 mmHg or higher at screening",
+      "Currently taking at least 2 antihypertensive medications",
+      "Willing and able to provide written informed consent"
+    ],
+    "exclusion": [
+      "Known secondary hypertension (e.g., renal artery stenosis, primary aldosteronism, pheochromocytoma)",
+      "Serum potassium greater than 5.0 mmol/L",
+      "Heart failure with left ventricular ejection fraction below 40%",
+      "Pregnancy"
+    ],
+    "source": "Benchmark (synthetic, CT.gov format)",
+    "url": ""
+  },
+  {
+    "nct_id": "BENCH-AST-003",
+    "title": "Biologic Therapy for Severe Uncontrolled Asthma",
+    "conditions": [
+      "Asthma",
+      "Severe Asthma"
+    ],
+    "min_age": 12,
+    "max_age": 65,
+    "sex": "ALL",
+    "summary": "Study of an add-on monoclonal antibody in patients with severe asthma who continue to have exacerbations despite inhaled therapy.",
+    "inclusion": [
+      "Physician-diagnosed asthma for at least 12 months",
+      "Using medium- or high-dose inhaled corticosteroids",
+      "At least 2 asthma exacerbations requiring systemic (oral) corticosteroids in the past 12 months",
+      "Pre-bronchodilator FEV1 between 40% and 80% of predicted",
+      "Willing and able to provide written informed consent"
+    ],
+    "exclusion": [
+      "Current smoker or smoking history of 10 pack-years or more",
+      "Diagnosis of COPD or other clinically significant lung disease",
+      "Current use of any biologic therapy for asthma (e.g., omalizumab, mepolizumab, dupilumab)"
+    ],
+    "source": "Benchmark (synthetic, CT.gov format)",
+    "url": ""
+  },
+  {
+    "nct_id": "BENCH-BC-004",
+    "title": "Targeted Antibody-Drug Conjugate in HER2-Positive Breast Cancer",
+    "conditions": [
+      "Breast Cancer",
+      "HER2-positive Breast Cancer"
+    ],
+    "min_age": 18,
+    "max_age": null,
+    "sex": "FEMALE",
+    "summary": "Open-label study of an antibody-drug conjugate in women with HER2-positive breast cancer.",
+    "inclusion": [
+      "Histologically confirmed HER2-positive breast cancer",
+      "ECOG performance status of 0 or 1",
+      "Left ventricular ejection fraction (LVEF) of 50% or higher",
+      "Willing and able to provide written informed consent"
+    ],
+    "exclusion": [
+      "Active or untreated brain metastases",
+      "Prior treatment with trastuzumab deruxtecan",
+      "Pregnant or breastfeeding"
+    ],
+    "source": "Benchmark (synthetic, CT.gov format)",
+    "url": ""
+  },
+  {
+    "nct_id": "BENCH-CKD-005",
+    "title": "Kidney-Protective Therapy in Albuminuric Chronic Kidney Disease",
+    "conditions": [
+      "Chronic Kidney Disease",
+      "Diabetic Kidney Disease"
+    ],
+    "min_age": 18,
+    "max_age": 80,
+    "sex": "ALL",
+    "summary": "Trial evaluating whether a new drug slows kidney function decline in patients with CKD and albuminuria.",
+    "inclusion": [
+      "Chronic kidney disease with eGFR between 25 and 60 mL/min/1.73m2",
+      "Urine albumin-to-creatinine ratio (UACR) of 200 mg/g or higher",
+      "On a stable, maximum tolerated dose of an ACE inhibitor or ARB for at least 4 weeks",
+      "Willing and able to provide written informed consent"
+    ],
+    "exclusion": [
+      "Kidney transplant recipient or currently receiving dialysis",
+      "Serum potassium greater than 5.0 mmol/L",
+      "Type 1 diabetes mellitus"
+    ],
+    "source": "Benchmark (synthetic, CT.gov format)",
+    "url": ""
+  }
+]

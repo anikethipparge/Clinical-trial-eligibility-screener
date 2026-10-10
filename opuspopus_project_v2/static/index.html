@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpusPopus · Clinical Trial Eligibility Screener</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">🧬</span><div><h1>OpusPopus TrialMatch</h1>
+    <p>AI clinical trial eligibility screener · RAG + rule engine + GenAI explanations</p></div></div>
+  <div id="status" class="status">Loading…</div>
+</header>
+<nav>
+  <button class="tab active" data-tab="match">🔎 Find Trials for Patient</button>
+  <button class="tab" data-tab="batch">📋 Screen a Trial</button>
+  <button class="tab" data-tab="eval">📊 Accuracy</button>
+  <button class="tab" data-tab="explore">📚 Trial Library</button>
+  <button class="tab" data-tab="about">⚙️ How it works</button>
+</nav>
+<main>
+<section id="match" class="panel active">
+  <div class="card">
+    <h2>Patient → best matching trials</h2>
+    <div class="row">
+      <label>Synthetic patient <select id="m-patient"></select></label>
+      <label>Trials to screen <input id="m-k" type="number" min="1" max="10" value="3"></label>
+    </div>
+    <textarea id="m-note" rows="5" placeholder="Paste or type a patient note…"></textarea>
+    <button class="primary" id="m-go">Find & screen trials</button>
+  </div>
+  <div id="m-out"></div>
+</section>
+<section id="batch" class="panel">
+  <div class="card">
+    <h2>Screen many patients against one trial</h2>
+    <label>Trial <select id="b-trial"></select></label>
+    <div id="b-criteria" class="criteria-preview"></div>
+    <div class="row between"><strong>Patients</strong>
+      <span><button class="link" id="b-all">select all</button> · <button class="link" id="b-none">clear</button></span></div>
+    <div id="b-patients" class="chips"></div>
+    <button class="primary" id="b-go">Screen selected patients</button>
+  </div>
+  <div id="b-out"></div>
+  <details class="card"><summary><strong>✍️ Paste your own trial criteria</strong></summary>
+    <textarea id="c-criteria" rows="7" placeholder="Inclusion Criteria:&#10;- Age 18 to 65&#10;- ...&#10;Exclusion Criteria:&#10;- ..."></textarea>
+    <textarea id="c-note" rows="4" placeholder="Patient note"></textarea>
+    <button class="primary" id="c-go">Screen</button>
+    <div id="c-out"></div>
+  </details>
+</section>
+<section id="eval" class="panel">
+  <div class="card">
+    <h2>Accuracy vs. labelled ground truth</h2>
+    <p class="muted">Runs every labelled patient×trial pair in <code>data/ground_truth.csv</code>. Target: ≥ 85%.</p>
+    <button class="primary" id="e-go">Run evaluation</button> <span id="e-prog" class="muted"></span>
+  </div>
+  <div id="e-out"></div>
+</section>
+<section id="explore" class="panel">
+  <div class="card">
+    <h2>Trial library</h2>
+    <div class="row">
+      <input id="x-q" placeholder="Search, e.g. 'elderly heart failure with diabetes'">
+      <button id="x-go">Search</button>
+      <button id="x-refresh" class="secondary">⟳ Fetch live trials from ClinicalTrials.gov</button>
+    </div>
+    <div id="x-msg" class="muted"></div>
+  </div>
+  <div id="x-out"></div>
+</section>
+<section id="about" class="panel">
+  <div class="card prose">
+    <h2>Single-agent pipeline</h2>
+    <ol>
+      <li><b>Ingest</b>: trials from ClinicalTrials.gov API v2 (free-text criteria split into individual rules) and synthetic patient notes.</li>
+      <li><b>Understand patient</b>: the LLM extracts structured facts (age, sex, diagnoses, labs, meds, history).</li>
+      <li><b>Retrieve (RAG)</b>: trials are ranked by relevance to the patient.</li>
+      <li><b>Rule engine</b>: Python enforces age, sex and pregnancy rules deterministically.</li>
+      <li><b>Reason</b>: the LLM judges each criterion as MET / NOT MET / UNKNOWN, with quoted evidence.</li>
+      <li><b>Decide</b>: any failed inclusion or triggered exclusion → Not eligible; missing data → Needs review; otherwise Eligible.</li>
+      <li><b>Explain</b>: a plain-English rationale for the clinical coordinator.</li>
+    </ol>
+    <p><b>Privacy:</b> synthetic patients only. <b>Safety:</b> “Needs review” keeps a human in the loop.</p>
+  </div>
+</section>
+</main>
+<div id="toast"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

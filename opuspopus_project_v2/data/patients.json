@@ -1,0 +1,82 @@
+[
+  {
+    "id": "P001",
+    "note": "56-year-old male. Type 2 diabetes diagnosed in 2016. HbA1c 8.1% last week. Taking metformin 2000 mg/day, dose unchanged for over a year. BMI 31 kg/m2. eGFR 78. No history of myocardial infarction or stroke. Has never used insulin. Blood pressure 124/78, no hypertension. Non-smoker."
+  },
+  {
+    "id": "P002",
+    "note": "61-year-old female, postmenopausal. Type 2 diabetes for 9 years and chronic kidney disease stage 3b (diabetic kidney disease). HbA1c 8.6%. Metformin 1500 mg/day stable for 2 years. BMI 29. eGFR 38 mL/min/1.73m2. UACR 450 mg/g. On lisinopril 40 mg daily (maximum dose) for 2 years. Serum potassium 4.6 mmol/L. Not on dialysis, no transplant. No insulin use."
+  },
+  {
+    "id": "P003",
+    "note": "49-year-old male with type 2 diabetes since 2018. HbA1c 11.8% despite metformin 2000 mg/day for 1 year. BMI 34. eGFR 90. No cardiovascular events. Never on insulin."
+  },
+  {
+    "id": "P004",
+    "note": "32-year-old female with type 2 diabetes diagnosed 3 years ago. HbA1c 7.6%. Metformin 1000 mg/day stable for 6 months. BMI 30. eGFR 105. Currently 12 weeks pregnant."
+  },
+  {
+    "id": "P005",
+    "note": "74-year-old male. Essential hypertension for 15 years; seated office BP today 152/88 mmHg on amlodipine 10 mg and losartan 100 mg. Type 2 diabetes since 2012, HbA1c 8.0% on metformin 1000 mg/day for 2 years, BMI 28, eGFR 64. Serum potassium 4.2 mmol/L. Echo LVEF 60%. No secondary causes of hypertension found."
+  },
+  {
+    "id": "P006",
+    "note": "52-year-old male with type 2 diabetes diagnosed in 2019. Metformin 1000 mg/day, stable for 3 months. BMI 27. eGFR 85. No MI or stroke. Never used insulin. HbA1c result is pending; no recent HbA1c available."
+  },
+  {
+    "id": "P007",
+    "note": "58-year-old female, postmenopausal. Essential hypertension. Seated office systolic BP 158 mmHg on amlodipine 10 mg, losartan 100 mg and hydrochlorothiazide 25 mg. Potassium 4.1 mmol/L. LVEF 62%. Workup negative for secondary hypertension. No diabetes."
+  },
+  {
+    "id": "P008",
+    "note": "47-year-old male. Office systolic BP 165 mmHg on three antihypertensives (amlodipine, valsartan, chlorthalidone). Diagnosed with primary aldosteronism last month. Potassium 3.2 mmol/L. LVEF 58%."
+  },
+  {
+    "id": "P009",
+    "note": "66-year-old male with essential hypertension. Seated systolic BP 148 mmHg on ramipril 10 mg and amlodipine 5 mg. Serum potassium 5.6 mmol/L. LVEF 55%. No kidney disease, eGFR 82."
+  },
+  {
+    "id": "P010",
+    "note": "34-year-old female with asthma since age 10. On high-dose budesonide-formoterol. Three exacerbations in the past 12 months, each treated with oral prednisone. Pre-bronchodilator FEV1 62% predicted. Never smoker. No COPD. Never received biologic therapy. Not pregnant."
+  },
+  {
+    "id": "P011",
+    "note": "52-year-old male with asthma for 20 years on high-dose fluticasone-salmeterol. Two exacerbations requiring oral prednisone in the last year. FEV1 55% predicted. Current smoker, 25 pack-years."
+  },
+  {
+    "id": "P012",
+    "note": "28-year-old male with severe asthma on high-dose inhaled corticosteroids. Four exacerbations needing oral corticosteroids in the past 12 months. FEV1 58% predicted. Never smoker. Currently receiving dupilumab every 2 weeks."
+  },
+  {
+    "id": "P013",
+    "note": "9-year-old female with asthma diagnosed at age 5, on medium-dose inhaled corticosteroids. Two oral steroid courses in the last year. FEV1 70% predicted."
+  },
+  {
+    "id": "P014",
+    "note": "47-year-old female with biopsy-confirmed HER2-positive (IHC 3+) invasive ductal breast carcinoma. ECOG performance status 1. LVEF 60% on echocardiogram. Brain MRI shows no metastases. No prior trastuzumab deruxtecan. Not pregnant, not breastfeeding."
+  },
+  {
+    "id": "P015",
+    "note": "63-year-old male with histologically confirmed HER2-positive breast cancer. ECOG 0. LVEF 58%. No brain metastases."
+  },
+  {
+    "id": "P016",
+    "note": "55-year-old female with HER2-positive breast cancer confirmed on biopsy. ECOG 1. LVEF 55%. MRI last week shows new, untreated brain metastases."
+  },
+  {
+    "id": "P017",
+    "note": "51-year-old female with histologically confirmed HER2-positive breast cancer. ECOG 0. LVEF 42% after prior anthracycline therapy. No brain metastases."
+  },
+  {
+    "id": "P018",
+    "note": "64-year-old male with chronic kidney disease stage 5 on hemodialysis three times weekly. eGFR 9. UACR 900 mg/g. On losartan 50 mg."
+  },
+  {
+    "id": "P019",
+    "note": "59-year-old male with type 2 diabetes and diabetic kidney disease. eGFR 41 mL/min/1.73m2. UACR 620 mg/g. On losartan 100 mg daily (maximum dose) for 1 year. Potassium 4.7 mmol/L. HbA1c 7.8% on metformin 1000 mg/day for 1 year. BMI 30. No dialysis or transplant."
+  },
+  {
+    "id": "P020",
+    "note": "70-year-old female with chronic kidney disease, eGFR 33 mL/min/1.73m2, UACR 380 mg/g. Ramipril 10 mg daily (maximum tolerated) for 6 months. Serum potassium 5.4 mmol/L. Not on dialysis."
+  }
+]
